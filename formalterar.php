@@ -24,8 +24,8 @@ if ($result) {
 
 <body>
     <form action="alterar.php" method="post">
-        Email: <input type="email" name="email" value="<?= $usuario['email'] ?>"><br>
-        Senha: <input type="password" name="senha" value="<?= $usuario['senha'] ?>"><br>
+        Email: <input type="text" name="email" value="<?= $usuario['email'] ?>"><br>
+        Senha: <input type="text" name="senha" value="<?= $usuario['senha'] ?>"><br>
         <input type="submit" value="Salvar"><br>
     </form>
 </body>
