@@ -1,5 +1,5 @@
 <?php
-require_once "conexao.php";
+require_once "conecta.php";
 $conexao = conectar();
 $sql = "SELECT * FROM usuario";
 $result = mysqli_query($conexao, $sql);
