@@ -2,11 +2,11 @@
 require_once "conecta.php";
 $conexao = conectar();
 
-$id_usuario = $_POST['id_usuario'];
+$id_user = $_POST['id_usuario'];
 $email = $_POST['email'];
 $senha = $_POST['senha'];
 
-$sql = "UPDATE usuario SET email='$email', senha='$senha' WHERE id_usuario=$id_usuario";
+$sql = "UPDATE usuario SET email='$email', senha='$senha' WHERE id_usuario=$id_user";
 $result = mysqli_query($conexao, $sql);
 if ($result) {
     header("Location: index.php");
