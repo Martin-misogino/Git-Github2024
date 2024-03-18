@@ -33,7 +33,7 @@ if ($result) {
             foreach ($usuarios as $usuario) {
                 echo "<tr><td>" . $usuario['id_usuario'] . "</td>";
                 echo "<td>" . $usuario['email'] . "</td>";
-                echo '<td><a href="form-alterar.php?id_usuario=' .
+                echo '<td><a href="formalterar.php?id_usuario=' .
                     $usuario['id_usuario'] . '">Alterar</td>';
                 echo '<td><a href="excluir.php?id_usuario=' .
                     $usuario['id_usuario'] . '">Excluir</td>';
