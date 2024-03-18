@@ -1,5 +1,5 @@
 <?php
-require_once "conexao.php";
+require_once "conecta.php";
 $conexao = conectar();
 
 $id_usuario = $_GET['id_usuario'];
